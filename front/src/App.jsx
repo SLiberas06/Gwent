@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import React from 'react'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
+      <div className="App">
      <h1>Gwent</h1>
      <Home/>
     </div>
