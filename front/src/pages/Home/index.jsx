@@ -1,9 +1,11 @@
 import React from "react";
-import Card from "../../components/card"
+import Card from "../../components/Card"
 
 function Home(){
-    return <div>
-        <Card>Hello Gwent</Card>
+  
+return <div>
+        <p>Hello Gwent</p>
+        <Card/>
     </div>
 }
 export default Home

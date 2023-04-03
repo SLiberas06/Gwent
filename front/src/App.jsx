@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import card from "./components/card"
+import Home from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
      <h1>Gwent</h1>
+     <Home/>
     </div>
   )
 }
